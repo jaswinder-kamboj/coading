@@ -1,0 +1,28 @@
+body{
+    background-color: rgb(195, 209, 198);
+    text-align: center;
+}
+h1{
+    color:rgb(24, 211, 33);
+    text-align: left;
+    
+}
+
+.square{
+    width: 100px;
+    height: 100px;
+    background-color: grey;
+    text-align: center
+}
+.container{
+    
+    h1{
+           color: #d6d624
+    }
+    h2{
+        color: #d62424;
+    }
+}
+h2{
+    color: rgb(30, 197, 72);
+}

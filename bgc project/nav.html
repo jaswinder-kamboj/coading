@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>nav bar</title>
+        <link rel="stylesheet" href="nav.css">
+    </head>
+    <body>
+        <nav>
+            <ul class="topnav" id="dropdownClick">
+                <li><a href="home">home</a></li>
+                <li><a href="about">about</a></li>
+                <li><a href="contact">cntacot</a></li>
+                <li> <a href="notice">notice</a></li>
+                <li class="topnav-right"><a href="sign in">sign in</a> </li>
+                <li class="topnav-right"><a href="sign up">sign up</a> </li>
+                <li class="dropdownIcon"><a href="javascript:void(0);" onclick="dropdownMenu()">&#9776;</a></li>
+            </ul>
+        </nav>
+        <script>
+            function dropdownMenu() {
+                var x = document.getElementById("dropdownClick");
+                if (x. className === "topnav") {
+                    x. className +=" responsive";
+                }
+                /*############ make mobile responsive navbar ##############*/
+                else
+                {
+                    x.className = "topnav";
+                }
+            }
+        </script>
+    </body>
+</html>

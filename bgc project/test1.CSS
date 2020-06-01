@@ -1,0 +1,23 @@
+.container {
+    background: linear-gradient(rgb(98, 211, 151), black);  
+}
+h2 {
+    color: black;
+    text-align: center;
+    text-shadow: 2px 2px 3px white;
+    
+}
+h1 {
+    color: blanchedalmond;
+}
+ul {
+    text-align: center;
+    text-decoration-color: blue;
+}
+ul li {
+    color:rgb(40, 206, 90);
+    font-size: 20px;
+}
+ul > li {
+    color: black;
+}

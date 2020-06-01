@@ -1,0 +1,31 @@
+body {
+    background-color: grey;
+}
+h2 {
+    color: rgb(36, 59, 65);
+    text-align: center;
+}
+h1 {
+    color: aquamarine;
+    text-align: center;
+}
+form {
+    color: rgb(243, 0, 0);
+    border: 1px;
+    transition: 2s;
+}
+button {
+    background: linear-gradient(rgb(60, 214, 188), yellow);
+}
+main {
+    background-color: var(--bg--color);
+    color: var(--text-color);
+}
+:root {
+    --bg-color: #FFF;
+    --text-color: #000;
+}
+#dark-mode:checked + main {
+    --bg-color: #26242E;
+    --text-color: #FFF;
+}
